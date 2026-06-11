@@ -1,0 +1,7 @@
+# Require review from the docs team for all changes in this repository.
+* @kubestellar/kubestellar-docs
+
+# Require broader maintainer review for deployment and automation changes.
+/cluster-objects/ @kubestellar/kubestellar-docs @kubestellar/kubestellar-maintainers
+/Dockerfile* @kubestellar/kubestellar-docs @kubestellar/kubestellar-maintainers
+/.github/workflows/ @kubestellar/kubestellar-docs @kubestellar/kubestellar-maintainers
